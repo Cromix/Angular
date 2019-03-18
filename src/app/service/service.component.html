@@ -1,0 +1,33 @@
+<!-- <div id="heading">
+  <h1>Clinica Dr. Walter</h1>
+</div> -->
+
+<div class="wrapper">
+  <div class="inner">
+<header class="special">
+    <h2>SPECIALITATI</h2>
+    <p> Placeholder info Placeholder info Placeholder info Placeholder info Placeholder info Placeholder info Placeholder info Placeholder info Placeholder info Placeholder info </p>
+</header>
+<div class="container">
+  <div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-4 pt-4 pb-4" *ngFor="let service of this.getServices()">
+    <div class="masterCard" (click)=gotoDetail(service)>
+      <header>
+          <img width="50%" src="{{service.img}}">
+          <h3>{{service.spec}}</h3>
+      </header>
+      <div class="contentCard">
+      <p *ngFor="let dess of service.des">
+
+        <b>{{dess.name}}</b> Tel: {{dess.Tel}}
+      </p>
+    </div>
+      <!-- <div class="img-card"><img width="100%" src="{{service.img}}"></div> -->  
+      <!-- <div class="title-card">{{service.name}}</div> -->
+      <!-- <div class="info-card">{{service.des}}</div> -->
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>

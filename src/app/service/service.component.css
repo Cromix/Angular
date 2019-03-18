@@ -1,0 +1,153 @@
+.containerCards{
+    display: inline-block;
+    width:100%;
+}
+.masterCard{ 
+    width: 100%;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
+    border-radius: 10px;
+    height: 100%;
+    text-align: center;
+    /* margin-bottom: 3rem; */
+}
+@media only screen and (max-width: 480px){
+    .masterCard {
+        padding: 2rem;
+    }
+}
+.masterCard img{
+    padding: 1rem;
+}
+.title-card{
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin: 0 0 2rem 0;
+ }
+
+header.special {
+  text-align: center;
+  margin-bottom: 4rem;
+  color: white;
+}
+
+header h2{
+    font-size: 2.25rem;
+    line-height: 1.3;
+}
+header.special p {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 3rem;
+    padding-top: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: .2rem;
+    margin: 0 auto;
+    padding: 8rem 0 6rem 0;
+  }
+  @media only screen and (max-width: 480px){
+      .wrapper {
+          padding: 5rem 0 0.1rem 0;
+      }
+      .inner{
+          max-width: calc(100% - 2rem);
+      }
+  }
+  .inner {
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
+    opacity: 1;
+    position: relative;
+    z-index: 3;
+    color: #444444;
+}
+.inner > p{
+    color:rgba(255, 255, 255, 0.5);
+}
+h3{
+    color:#555555;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin: 0 0 1.5rem 0;
+}
+p {
+    /* margin: 0 0 2rem 0; */
+    border-bottom: 1px solid
+}
+.masterCard p {
+    font-size: 0.7rem;
+    text-align: left;
+}
+.masterCard:hover{
+    background:linear-gradient(to left, #734b6d, #42275a);
+    color: white;
+}
+.masterCard:hover h3{
+    color:white;
+}
+#heading {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    background-color: #111111;
+    color: rgba(255, 255, 255, 0.5);
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url(/assets/imgs/bg-dark.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 0;
+    display: -ms-flexbox;
+    height: 15rem !important;
+    min-height: 15rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+#heading:before {
+    background: linear-gradient(135deg, #663399 0%, #05791e 150%);
+    content: ' ';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#heading h1 {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+    color: white;
+}

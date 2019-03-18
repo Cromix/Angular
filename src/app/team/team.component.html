@@ -1,0 +1,29 @@
+<!-- <div id="heading">
+  <h1>Clinica Dr. Walter</h1>
+</div> -->
+<div class="wrapper">
+  <div class="inner">
+      <header class="special">
+          <h2>Echipa CLINICII DR. WALTER</h2>
+          <p>Va asteapta in cadrul unui program stabil, asigurand  calitatea serviciilor medicale acordate, a materialelor si nu in ultimul rand tehnicii, aparaturii si intrumentelor  din dotare.</p>
+      </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 pt-4 pb-4" *ngFor="let person of team">
+          <div class="content">
+            <blockquote>
+              <p>{{person.des}}</p>
+            </blockquote>
+            <div class="author">
+              <div class="image">
+                <img src="{{person.img}}" alt="">
+              </div>
+              <p class="credit">- <strong>{{person.name}}</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

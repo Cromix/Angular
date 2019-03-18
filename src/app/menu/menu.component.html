@@ -1,0 +1,20 @@
+<header>
+  <nav class="navbar fixed-top navbar-dark bg-dark">
+    <div class="navbar-brand"><a routerLink="/" >Dr. Walter</a></div>
+    <ul class="navbar-nav navbar-collense justify-content-end">
+      <span style="color:white;cursor:pointer" (click)=triggerSlideBar()>Meniu &#9776;</span>
+    </ul>
+  </nav>
+</header>
+
+<div id="mySidenav" class="sidenav bg-dark" [style.width]=" slideBar ?'18rem' : '0rem' ">
+  <nav id="menu">
+      <a href="javascript:void(0)" class="closebtn"  (click)=triggerSlideBar()>&times;</a>
+    <ul class="links" (click)=triggerSlideBar()>
+      <li><a routerLink="/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Acasa</a></li>
+      <li><a routerLink="/specialitati" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Specialitati</a></li>
+      <li><a routerLink="/echipa" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Echipa</a></li>
+      <li><a routerLink="/contact" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Contact</a></li>
+    </ul>
+  </nav>
+</div>
