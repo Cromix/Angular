@@ -94,7 +94,7 @@ p {
 }
 .masterCard p {
     font-size: 0.7rem;
-    text-align: left;
+    text-align: center;
 }
 .masterCard:hover{
     background:linear-gradient(to left, #734b6d, #42275a);
