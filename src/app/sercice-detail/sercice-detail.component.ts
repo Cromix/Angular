@@ -17,7 +17,7 @@ export class SerciceDetailComponent implements OnInit {
   private id = this.router.snapshot.paramMap.get('id');
   private specName = this.service.findNameById(this.id);
   private text = this.service.findTextById(this.id);
-  private elem = this.service.findElemById(this.id);
+  private img = this.service.findImgById(this.id);
 
   ngOnInit() {
   }
@@ -28,7 +28,8 @@ export class SerciceDetailComponent implements OnInit {
     
     return this.text;
   }
-  getElem(){
-    return this.elem;
+  getImg(){
+    return this.img;
   }
+
 }

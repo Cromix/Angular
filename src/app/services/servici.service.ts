@@ -93,6 +93,14 @@ export class ServiciService {
     }
     return "NONE";
   }
+  findImgById(id) {
+    for (const iterator of this.services) {
+      if (iterator.id == id) {
+        return iterator.imgPrev;
+      }
+    }
+    return "NONE";
+  }
   findTextById(id) {
     for (const iterator of this.services) {
       if (iterator.id == id) {
