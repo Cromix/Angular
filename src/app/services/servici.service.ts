@@ -12,7 +12,7 @@ export class ServiciService {
         { name: "Dr. Bran-Walter", Tel: "0728386786" }
       ],
       img: "/assets/icons/stoma-prevent.png",
-      imgPrev:"assets/imgs/sina-protruzie.jpg"
+      imgPrev:"assets/imgs/sina-protruzie.jpg",
       text:["Un dinte sanatos sta intr-o gingie sanatoasa!",
       "Plecand de la aceasta premiza, consideram ca afectiunile parodontale pot fi depistate la timp si prevenite prin periaj, detartraj manual sau cu ultrasunete.",
       "Totodata cu ajutorul jetului pe baza de bicarbonat pot fi indepartate placa bacteriana, petele dentare aparute din cauza alimentatiei dar si diverse afectiuni gingivale.",
