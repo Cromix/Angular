@@ -16,10 +16,19 @@ export class SerciceDetailComponent implements OnInit {
     private service: ServiciService) { }
   private id = this.router.snapshot.paramMap.get('id');
   private specName = this.service.findNameById(this.id);
+  private text = this.service.findTextById(this.id);
+  private elem = this.service.findElemById(this.id);
 
   ngOnInit() {
   }
   getSpec(){
     return this.specName;
+  }
+  getText(){
+    
+    return this.text;
+  }
+  getElem(){
+    return this.elem;
   }
 }

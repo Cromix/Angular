@@ -5,13 +5,12 @@
         <h2>{{getSpec()}}</h2>
       </header>
       <hr>
-      <p>CLINICA DR. WALTER  a fost infiintata din dorinta de a pune la dispozitia pacientilor servicii medicale atat alopate cat si alternative intr-un spatiu ce confera confort si inovatie.</p>
-      <hr>
-      <p>Obiectivele muncii noastre reprezinta concretizarea dorintelor dumneavoastra, in reala reprezentare a calitaii serviciilor, printr-o continua pregatire profesionala, sub titulatura colegiilor medicilor dentisti,a cogliului psihologilor, colegiului de medicina generala si nu  in ultimul rand a societatii romane de som, oferind roadele unei continue pregatiri profesionale in congrese de specialitate atat pe plan national cat si international.</p>
-      <hr>
-      <p>CLINICA DR. WALTER  prin traditia deja  bineconturata, isi propune  in continuare  infrumusetarea organismului, atat din punct de vedere medical cat si corporal, urmarind realizarea unei  estetici corespunzatoare pretentiilor dumneavoastra.</p>
-      <hr>
-      https://www.youtube.com/watch?v=MNKVqYMS6E4
+      <div *ngFor="let text of getText(); index as i">
+        <p *ngIf="i==4 || i==5 ;else normalText" style="text-align: center"><b>{{text}}</b></p>
+        <ng-template #normalText><p>{{text}}</p></ng-template>
+        <hr>
+      </div>
+     <div style="text-align: center"> <img width="50%" src="{{getElem().imgPrev}}"></div>
     </div>
       
   </div>
