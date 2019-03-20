@@ -41,7 +41,6 @@ export class ServiciService {
         { name: "Dr. Bran-Walter", Tel: "0728386786" }
       ], 
       img: "/assets/icons/dental-copii.png",
-      imgPrev:"assets/imgs/dent-implant.jpg",
       text: ["Pentru ca atunci cand copii nostrii sunt fericiti, ne transporta si pe noi in starea lor de spirit, ne-am gandit sa inlocuim  banalele plombe triste albe sau de multe ori inca gri, cu culori vesele.",
       "Asocierea cu pietre pretioase, mai ales de catre fetite, este datorata sclipiciului inglobat in obturatii."]
      },
@@ -50,9 +49,11 @@ export class ServiciService {
       id: 16, 
       spec: "Implantologie", 
       des: [
-        { name: "Dr. Bran-Walter", Tel: "0728386786" }
+        { name: "Dr. Bran-Walter", Tel: "0728386786" },
+        { name: "Dr. Beatrice Doandes",Tel: "0728386786"}
       ], 
       img: "/assets/icons/stoma.png",
+      imgPrev:"assets/imgs/dent-implant.jpg",
       text:[
         ["Implantul  dentar este un dispozitiv care se introduce in osul maxilar sau mandibular in scopul de a inchide  spatii care au rezultat in urma pierderii unor dinti.  Peste implanturile dentare se confectioneaza  lucrarea protetica dorita.",
         "Supraprotezarea cu miniimplanturi a fost gandita de a venii in ajutorul tuturor purtatorilor de proteze mobile.",
@@ -60,7 +61,7 @@ export class ServiciService {
         "Dupa inserarea miniimplantelor in os si adaptarea protezei deja existente, in aceeasi sedinta, se observa de catre pacient o imbunatatire a stabilitatii si functionalitatii protezei."]
       ]
      },
-    { id: 5, spec: "Chirurgie maxilo-faciala", des: [], img: "/assets/icons/stoma-chirurgie.png" },
+    { id: 5, spec: "Chirurgie maxilo-faciala", des: [{name:"Dr. Beatrice Doandes",Tel: "0728386786"}], img: "/assets/icons/stoma-chirurgie.png" },
     { id: 6, spec: "Medicină de familie", des: [{ name: "Dr. David Daniela", Tel: "0256220614" }, { name: "Dr. Dragos Stoicu", Tel: "0725560276" }], img: "/assets/icons/med-familie.png" },
     // { id: 7, spec: "Medicină Internă", des: [], img: "/assets/icons/interne.png" },
     { id: 8, spec: "Medicina muncii", des: [{ name: "Dr. Valentin Duda", Tel: "0771509087" }], img: "/assets/icons/med-munci.png" },
@@ -68,7 +69,7 @@ export class ServiciService {
     { id: 11, spec: "Alergologie", des: [{ name: "Dr. Ramona Muresan", Tel: "0723790400" }], img: "/assets/icons/alergo.png" },
     { id: 12, spec: "Analize genetice", des: [], img: "/assets/icons/genetic.png" },
     { id: 13, spec: "Analize oncogenetice", des: [], img: "/assets/icons/onco.png" },
-    { id: 14, spec: "Psihologie Pediatrica", des: [], img: "/assets/icons/psiho.png" },
+    { id: 14, spec: "Psihologie Pediatrica", des: [{ name: "Psih. Camelia Bordea", Tel: "0733542254" }], img: "/assets/icons/psiho.png" },
     { id: 15, spec: "Psihoterapie", des: [{ name: "Psih. Camelia Bordea", Tel: "0733542254" }], img: "/assets/icons/psiho.png" },
     { id: 16, spec: "Logopedie", des: [{ name: "Psih. Camelia Bordea", Tel: "0733542254" }], img: "/assets/icons/logo.png" }
   ]
