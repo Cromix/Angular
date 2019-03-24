@@ -13,7 +13,12 @@ export class ServiceComponent implements OnInit {
   ngOnInit() {
   }
   gotoDetail(obj){
-    this.router.navigateByUrl('/specialitati/'+obj.id);
+    if(obj.id == 12){
+      window.location.href="http://ams.ro/";
+    }else{
+      this.router.navigateByUrl('/specialitati/'+obj.id);
+    }
+    
   }
   getServices(){
     return this.servici.getAllServices();

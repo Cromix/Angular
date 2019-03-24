@@ -14,10 +14,10 @@ export class SerciceDetailComponent implements OnInit {
   constructor(
     private router: ActivatedRoute,
     private service: ServiciService) { }
-  private id = this.router.snapshot.paramMap.get('id');
-  private specName = this.service.findNameById(this.id);
-  private text = this.service.findTextById(this.id);
-  private img = this.service.findImgById(this.id);
+    private id = this.router.snapshot.paramMap.get('id');
+    private specName = this.service.findNameById(this.id);
+    private text = this.service.findTextById(this.id);
+    private img = this.service.findImgById(this.id);
 
   ngOnInit() {
   }
