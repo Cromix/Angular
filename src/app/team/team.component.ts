@@ -40,7 +40,7 @@ export class TeamComponent implements OnInit {
       id: 10, name: "Dr. Ramona Mureșan", des: "Medic specialist alergolog", img: "/assets/team/ramona_muresan.jpg"
     },
     {
-      id: 11, name: "Dr. Beatrice Doandes", des: "Medic specialist implantologie si chirurgie maxolo-faciala", img: "/assets/team/beatrice_doandes.jpeg"
+      id: 11, name: "Dr. Beatrice Doandes", des: "Medic specialist implantologie si chirurgie maxilo-faciala", img: "/assets/team/beatrice_doandes.jpeg"
     },
     {
       id: 12, name: "Psih. Camelia Bordea", des: "Psiholog-logoped- psihoterapeut", img: "/assets/team/camelia_bordea.jpg"
