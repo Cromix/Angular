@@ -50,10 +50,9 @@ export class ServiciService {
       id: 16, 
       spec: "Implantologie", 
       des: [
-        { name: "Dr. Bran-Walter", Tel: "0728386786" },
         { name: "Dr. Beatrice Doandes",Tel: "0728386786"}
       ], 
-      img: "/assets/icons/stoma.png",
+      img: "/assets/icons/implant.png",
       imgPrev:"assets/imgs/dent-implant.jpg",
       text:[
         "Implantul  dentar este un dispozitiv care se introduce in osul maxilar sau mandibular in scopul de a inchide  spatii care au rezultat in urma pierderii unor dinti.  Peste implanturile dentare se confectioneaza  lucrarea protetica dorita.",
@@ -63,8 +62,19 @@ export class ServiciService {
       ]
      },
     { id: 5, spec: "Chirurgie maxilo-faciala", des: [{name:"Dr. Beatrice Doandes",Tel: "0728386786"}], img: "/assets/icons/stoma-chirurgie.png" },
-    { id: 6, spec: "Medicină de familie", des: [{ name: "Dr. David Daniela", Tel: "0256220614" }, { name: "Dr. Dragos Stoicu", Tel: "0725560276" }], img: "/assets/icons/med-familie.png" },
-    // { id: 7, spec: "Medicină Internă", des: [], img: "/assets/icons/interne.png" },
+    { id: 6, 
+      spec: "Medicină de familie", 
+      des: [
+        { name: "Dr. David Daniela", Tel: "0256220614" }, 
+        { name: "Dr. Dragos Stoicu", Tel: "0725560276" }], 
+      img: "/assets/icons/med-familie.png",
+      text:[
+        "Rolul medicului de familie este cel de strateg al starii de sanatate a omului sanatos sau bolnav, asigurand asistenta medicala primara si continua, prin actiuni preventive,educationale, terapeutice si de recuperare contribuind astfel la promovarea starii de sanatate a individului, a familiei si colectivitatii.",
+        "In cadrul medicinei de familie, pacientul are dreptul la gratuitatea actelor medicale care fac parte din 'pachetul asigurat' cum ar fi : consultatii la cabinet, primirea retetelor compensate sau gratuite, a biletelor de trimitere sau de internare ( dupa caz), vaccinarile obligatorii.",
+        "Scopul medicului de familie este acela de a preveni, vindeca sau ameliora suferinta pacientului."
+      ]
+    },
+
     { id: 8, spec: "Medicina muncii", des: [{ name: "Dr. Valentin Duda", Tel: "0771509087" }], img: "/assets/icons/med-munci.png" },
     { 
       id: 10, 
@@ -73,11 +83,12 @@ export class ServiciService {
       img: "/assets/icons/traumo.png",
       text:["Ortopedia și traumatologia este specialitatea chirurgicală care se ocupă cu depistarea, diagnosticarea, tratarea și recuperarea afecțiunilor congenitale și dobândite, traumatice și netraumatice, ale aparatului locomotor."]
      },
-    { id: 11, spec: "Alergologie", des: [{ name: "Dr. Ramona Muresan", Tel: "0723790400" }], img: "/assets/icons/alergo.png" },
-    { id: 12, spec: "Analize genetice", des: [], img: "/assets/icons/genetic.png" },
-    { id: 13, spec: "Analize oncogenetice", des: [], img: "/assets/icons/onco.png" },
-    { id: 14, spec: "Psihologie Pediatrica", des: [{ name: "Psih. Camelia Bordea", Tel: "0733542254" }], img: "/assets/icons/psiho.png" },
-    { id: 15, spec: "Psihoterapie", des: [{ name: "Psih. Camelia Bordea", Tel: "0733542254" }], img: "/assets/icons/psiho.png" },
+    { id: 11, spec: "Alergologie", des: [{ name: "Dr. Ramona Muresan", Tel: "0723790400" }], img: "/assets/icons/alergo.png",
+  text:['Alergologia se ocupa cu diagnosticul si tratarea alergiilor de orice fel (respiratorii, alimentare, medicamentoase), astmului bronsic , eruptiilor cutanate alergice, etc. atat la copii cat si la adult.'
+  ]
+  },
+    { id: 12, spec: "Analize genetice si Analize oncogenetice", des: [{ name: "http://ams.ro/", Tel: "0213247050" }], img: "/assets/icons/genetic.png" },
+    { id: 14, spec: "Psihologie Pediatrica si Psihoterapie", des: [{ name: "Psih. Camelia Bordea", Tel: "0733542254" }], img: "/assets/icons/psiho.png" },
     { id: 16, spec: "Logopedie", des: [{ name: "Psih. Camelia Bordea", Tel: "0733542254" }], img: "/assets/icons/logo.png" }
   ]
   constructor() { }
