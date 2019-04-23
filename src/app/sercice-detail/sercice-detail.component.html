@@ -6,7 +6,7 @@
       </header>
       <hr>
       <div *ngFor="let text of getText(); index as i">
-        <p *ngIf="i==4 || i==5 ;else normalText" style="text-align: center"><b>{{text}}</b></p>
+        <p *ngIf="(i==4 || i==5) && getId() != 8 ;else normalText" style="text-align: center"><b>{{text}}</b></p>
         <ng-template #normalText><p>{{text}}</p></ng-template>
         <hr>
       </div>

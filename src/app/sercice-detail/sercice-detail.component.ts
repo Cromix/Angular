@@ -31,5 +31,7 @@ export class SerciceDetailComponent implements OnInit {
   getImg(){
     return this.img;
   }
-
+  getId(){
+    return this.id;
+  }
 }
