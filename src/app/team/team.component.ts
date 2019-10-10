@@ -12,24 +12,24 @@ export class TeamComponent implements OnInit {
     {
       id: 1, name: "Dr. Simona Bran-Walter", des: "Medic specialist stomatologie generala, competenta in stomatologie preventiva", img: "/assets/team/simona_walter.jpg"
     },
-    {
-      id: 2, name: "Dr. Marcel Mojse", des: "Medic primar  ortodontie si ortopedie dento-faciala", img: "/assets/team/Moise-Marcel.jpg"
-    },
-    {
-      id: 3, name: "Dr. Anca Anghel - Lorinți", des: "Medic dentist", img: "/assets/team/anca_anghel.jpg"
-    },
-    {
-      id: 4, name: "Dr. Marius Crăciun", des: "Medic dentist", img: "/assets/team/marius_craciun.jpg"
-    },
+    // {
+    //   id: 2, name: "Dr. Marcel Mojse", des: "Medic primar  ortodontie si ortopedie dento-faciala", img: "/assets/team/Moise-Marcel.jpg"
+    // },
+    // {
+    //   id: 3, name: "Dr. Anca Anghel - Lorinți", des: "Medic dentist", img: "/assets/team/anca_anghel.jpg"
+    // },
+    // {
+    //   id: 4, name: "Dr. Marius Crăciun", des: "Medic dentist", img: "/assets/team/marius_craciun.jpg"
+    // },
     {
       id: 5, name: "Dr. Danela David", des: "Medic primar medicina de familie", img: "/assets/team/danela_david.jpg"
     },
-    {
-      id: 6, name: "Dr. Dragoș Stoicu", des: "Medic primar medicina de familie", img: "/assets/team/dragos_stoicu.jpg"
-    },
-    {
-      id: 7, name: "Dr. Ioana Marin", des: "Medic specialist medicina muncii", img: "/assets/team/ioana_marin.jpg"
-    },
+    // {
+    //   id: 6, name: "Dr. Dragoș Stoicu", des: "Medic primar medicina de familie", img: "/assets/team/dragos_stoicu.jpg"
+    // },
+    // {
+    //   id: 7, name: "Dr. Ioana Marin", des: "Medic specialist medicina muncii", img: "/assets/team/ioana_marin.jpg"
+    // },
     {
       id: 8, name: "Dr. Valentin Duda", des: "Medic medicina muncii", img: "/assets/team/valentin_dura.jpg"
     },

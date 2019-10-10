@@ -26,8 +26,6 @@ export class ServiciService {
       spec: "Medicină dentară adulți",
       des: [
         { name: "Dr. Bran-Walter", Tel: "0728386786" },
-        { name: "Dr. Craciun", Tel: "0728386786" },
-        { name: "Dr. Anghel-Lorinti", Tel: "0728386786" }
       ],
       img: "/assets/icons/dental-adulti.png",
       text: [
@@ -130,8 +128,14 @@ export class ServiciService {
     },
     {
       id: 12,
-      spec: "Analize genetice si Analize oncogenetice",
+      spec: "Analize genetice",
       des: [{ name: "http://ams.ro/", Tel: "0213247050" }],
+      img: "/assets/icons/genetic.png"
+    },
+    {
+      id: 13,
+      spec: "Analize oncogenetice",
+      des: [{ name: "http://amsgeneticlab.ro/", Tel: "0213247050" }],
       img: "/assets/icons/genetic.png"
     },
     {
@@ -155,11 +159,19 @@ export class ServiciService {
     {
       id: 16,
       spec: "Logopedie",
-      des: [{ name: "Psih. Camelia Bordea", Tel: "0733542254" }],
+      des: [{ name: "Psih. Flavia Daiana Grek", Tel: "0748330089" }],
       img: "/assets/icons/logo.png"
+    },
+    {
+      id: 17,
+      spec: "Kinetotetrapie si Recuperare Medicala",
+      des: [{ name: "Dr. Ramona Cojocaru", Tel: "0256220614" },
+      { name: "Dr. Alexandra Tiron", Tel: "0256220614" }
+      ],
+      img: "/assets/icons/kineto.jpg",
     }
   ];
-  constructor() {}
+  constructor() { }
   getAllServices() {
     return this.services;
   }

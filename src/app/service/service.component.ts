@@ -7,20 +7,26 @@ import { ServiciService } from '../services/servici.service';
   styleUrls: ['./service.component.css']
 })
 export class ServiceComponent implements OnInit {
-  constructor(private router:Router,
+  constructor(private router: Router,
     private servici: ServiciService) { }
 
   ngOnInit() {
   }
-  gotoDetail(obj){
-    if(obj.id == 12){
-      window.location.href="http://ams.ro/";
-    }else{
-      this.router.navigateByUrl('/specialitati/'+obj.id);
+  gotoDetail(obj) {
+    if (obj.id == 12) {
+      window.location.href = "http://ams.ro/";
+    } else if (obj.id == 13) {
+      window.location.href = "http://amsgeneticlab.ro/";
     }
-    
+    else if(!obj.text){
+      this.router.navigateByUrl('/specialitati');
+    }
+    else {
+      this.router.navigateByUrl('/specialitati/' + obj.id);
+    }
+
   }
-  getServices(){
+  getServices() {
     return this.servici.getAllServices();
   }
 
