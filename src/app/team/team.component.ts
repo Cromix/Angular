@@ -12,6 +12,9 @@ export class TeamComponent implements OnInit {
     {
       id: 1, name: "Dr. Simona Bran-Walter", des: "Medic specialist stomatologie generala, competenta in stomatologie preventiva", img: "/assets/team/simona_walter.jpg"
     },
+    {
+      id: 11, name: "Dr. Beatrice Doandes", des: "Medic specialist implantologie si chirurgie maxilo-faciala", img: "/assets/team/beatrice_doandes.jpeg"
+    },
     // {
     //   id: 2, name: "Dr. Marcel Mojse", des: "Medic primar  ortodontie si ortopedie dento-faciala", img: "/assets/team/Moise-Marcel.jpg"
     // },
@@ -39,9 +42,7 @@ export class TeamComponent implements OnInit {
     {
       id: 10, name: "Dr. Ramona Mureșan", des: "Medic specialist alergolog", img: "/assets/team/ramona_muresan.jpg"
     },
-    {
-      id: 11, name: "Dr. Beatrice Doandes", des: "Medic specialist implantologie si chirurgie maxilo-faciala", img: "/assets/team/beatrice_doandes.jpeg"
-    },
+    
     {
       id: 12, name: "Psih. Flavia Daiana Grek", des: "Psiholog", img: "/assets/team/flavia_grek.jpeg"
     },
@@ -50,6 +51,9 @@ export class TeamComponent implements OnInit {
     },
     {
       id: 14, name: "Ramona Circota", des: "Registrator Medical", img: "/assets/team/ramona_circota.jpeg"
+    },
+    {
+      id: 16, name: "Ramona Cojocaru", des: "Analize Oncogenetice", img: "/assets/team/logo-ams.png"
     },
     {
       id: 15, name: "AMS 2000 IMPEX TRADING", des: "Analize Oncogenetice", img: "/assets/team/logo-ams.png"
