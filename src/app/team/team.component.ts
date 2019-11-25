@@ -27,9 +27,9 @@ export class TeamComponent implements OnInit {
     {
       id: 5, name: "Dr. Danela David", des: "Medic primar medicina de familie", img: "/assets/team/danela_david.jpg"
     },
-    // {
-    //   id: 6, name: "Dr. Dragoș Stoicu", des: "Medic primar medicina de familie", img: "/assets/team/dragos_stoicu.jpg"
-    // },
+    {
+      id: 6, name: "Dr. Dragoș Stoicu", des: "Medic primar medicina de familie", img: "/assets/team/dragos_stoicu.jpg"
+    },
     // {
     //   id: 7, name: "Dr. Ioana Marin", des: "Medic specialist medicina muncii", img: "/assets/team/ioana_marin.jpg"
     // },

@@ -41,7 +41,7 @@ export class ServiciService {
       spec: "Medicină dentară copii",
       des: [
         { name: "Dr. Bran-Walter", Tel: "0728386786" },
-        { name: "Dr. Anghel-Lorinti", Tel: "0728386786" }
+        // { name: "Dr. Anghel-Lorinti", Tel: "0728386786" }
       ],
       img: "/assets/icons/dental-copii.png",
       text: [
