@@ -8,7 +8,7 @@ export class ServiciService {
     {
       id: 1,
       spec: "Stomatologie preventivă",
-      des: [{ name: "Dr. Bran-Walter", Tel: "0728386786" }],
+      des: [{ name: "Dr. Simona Bran-Walter", Tel: "0728386786" }],
       img: "/assets/icons/stoma-prevent.png",
       imgPrev: "assets/imgs/sina-protruzie.jpg",
       text: [
@@ -25,7 +25,8 @@ export class ServiciService {
       id: 2,
       spec: "Medicină dentară adulți",
       des: [
-        { name: "Dr. Bran-Walter", Tel: "0728386786" },
+        { name: "Dr. Simona Bran-Walter", Tel: "0728386786" },
+        { name: "Dr. Ecaterina Comarenco", Tel: "0256220614" },
       ],
       img: "/assets/icons/dental-adulti.png",
       text: [
@@ -40,7 +41,7 @@ export class ServiciService {
       id: 3,
       spec: "Medicină dentară copii",
       des: [
-        { name: "Dr. Bran-Walter", Tel: "0728386786" },
+        { name: "Dr. Simona Bran-Walter", Tel: "0728386786" },
         // { name: "Dr. Anghel-Lorinti", Tel: "0728386786" }
       ],
       img: "/assets/icons/dental-copii.png",
@@ -52,13 +53,13 @@ export class ServiciService {
     {
       id: 4,
       spec: "Ortodontie si ortopedie dento-faciala",
-      des: [{ name: "Dr. Bran-Walter", Tel: "0728386786" }],
+      des: [{ name: "Dr. Simona Bran-Walter", Tel: "0728386786" }],
       img: "/assets/icons/stoma.png"
     },
     {
       id: 16,
       spec: "Implantologie",
-      des: [{ name: "Dr. Beatrice Doandes", Tel: "0728386786" }],
+      des: [{ name: "Dr. Simona Beatrice Doandes", Tel: "0728386786" }],
       img: "/assets/icons/implant.png",
       imgPrev: "assets/imgs/dent-implant.jpg",
       text: [
@@ -71,14 +72,15 @@ export class ServiciService {
     {
       id: 5,
       spec: "Chirurgie maxilo-faciala",
-      des: [{ name: "Dr. Beatrice Doandes", Tel: "0728386786" }],
+      des: [{ name: "Dr. Beatrice Doandes", Tel: "0728386786" },
+      { name: "Dr. Ecaterina Comarenco", Tel: "0256220614" },],
       img: "/assets/icons/stoma-chirurgie.png"
     },
     {
       id: 6,
       spec: "Medicină de familie",
       des: [
-        { name: "Dr. David Daniela", Tel: "0256220614" },
+        { name: "Dr. Daniela David", Tel: "0256220614" },
         { name: "Dr. Dragos Stoicu", Tel: "0725560276" }
       ],
       img: "/assets/icons/med-familie.png",
@@ -129,13 +131,13 @@ export class ServiciService {
     {
       id: 12,
       spec: "Analize genetice",
-      des: [{ name: "http://ams.ro/", Tel: "0213247050" }],
+      des: [{ name: "http://amsgeneticlab.ro/", Tel: "0213247050" }],
       img: "/assets/icons/genetic.png"
     },
     {
       id: 13,
       spec: "Analize oncogenetice",
-      des: [{ name: "http://amsgeneticlab.ro/", Tel: "0213247050" }],
+      des: [{ name: "http://ams.ro/", Tel: "0213247050" }],
       img: "/assets/icons/genetic.png"
     },
     {
@@ -165,7 +167,7 @@ export class ServiciService {
     {
       id: 17,
       spec: "Kinetotetrapie si Recuperare Medicala",
-      des: [{ name: "Dr. Ramona Cojocaru", Tel: "0256220614" },
+      des: [{ name: "Dr. Ramona Cojocaru", Tel: "0729455083" },
       { name: "Dr. Alexandra Tiron", Tel: "0256220614" }
       ],
       img: "/assets/icons/kineto.jpg",
