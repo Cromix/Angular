@@ -50,16 +50,19 @@ export class TeamComponent implements OnInit {
       id: 12, name: "Psih. Flavia Daiana Grek", des: "Psiholog", img: "/assets/team/flavia_grek.jpeg"
     },
     {
-      id: 13, name: "Loredana Danko", des: "Asistent Medical", img: "/assets/team/loredana_donko.jpg"
+      id: 13, name: "Ramona Cojocaru", des: "Kinetoterapeut", img: "/assets/team/ramona_cojocaru.jpg"
     },
     {
-      id: 14, name: "Ramona Circota", des: "Registrator Medical", img: "/assets/team/ramona_circota.jpeg"
+      id: 14, name: "Loredana Danko", des: "Asistent Medical", img: "/assets/team/loredana_donko.jpg"
     },
     {
-      id: 15, name: "AMS LABORATOR GENETIC", des: "Analize Genetice", img: "/assets/team/logo-ams.png"
+      id: 15, name: "Ramona Circota", des: "Registrator Medical", img: "/assets/team/ramona_circota.jpeg"
     },
     {
-      id: 16, name: "AMS 2000 IMPEX TRADING", des: "Analize Oncogenetice", img: "/assets/team/logo-ams.png"
+      id: 16, name: "AMS LABORATOR GENETIC", des: "Analize Genetice", img: "/assets/team/logo-ams.png"
+    },
+    {
+      id: 17, name: "AMS 2000 IMPEX TRADING", des: "Analize Oncogenetice", img: "/assets/team/logo-ams.png"
     },
   ]
 
