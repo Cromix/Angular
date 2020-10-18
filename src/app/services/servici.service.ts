@@ -80,7 +80,7 @@ export class ServiciService {
       id: 6,
       spec: "Medicină de familie",
       des: [
-        { name: "Dr. Daniela David", Tel: "0256220614" },
+        { name: "Dr. Daniela David", Tel: "0770771493" },
         { name: "Dr. Dragos Stoicu", Tel: "0725560276" }
       ],
       img: "/assets/icons/med-familie.png",
@@ -91,25 +91,25 @@ export class ServiciService {
       ]
     },
 
-    {
-      id: 8,
-      spec: "Medicina muncii",
-      des: [{ name: "Dr. Valentin Duda", Tel: "0771509087" }],
-      img: "/assets/icons/med-munci.png",
-      text: [
-        "Medicina muncii este specialitatea medicala care studiaza relatia om-munca, adaptarea omului la munca si adaptarea muncii la persoana care o efectueaza.",
-        "În conformitate cu legislația în vigoare (HG 355/2007; HG 1169/2011) asigurăm:",
-        "• controlul medical la angajarea in munca;",
-        "• controlul medical de adaptare;",
-        "• controlul medical periodic;",
-        "• controlul medical la reluarea muncii.",
-        "• Întocmire dosare gravide",
-        "La cerere:",
-        "Aviz medical  Siguranta Circulatiei",
-        "Fisa port arma",
-        "Fisa medicala pentru obtinerea/preschimbarea permisului auto"
-      ]
-    },
+    // {
+    //   id: 8,
+    //   spec: "Medicina muncii",
+    //   des: [{ name: "Dr. Valentin Duda", Tel: "0771509087" }],
+    //   img: "/assets/icons/med-munci.png",
+    //   text: [
+    //     "Medicina muncii este specialitatea medicala care studiaza relatia om-munca, adaptarea omului la munca si adaptarea muncii la persoana care o efectueaza.",
+    //     "În conformitate cu legislația în vigoare (HG 355/2007; HG 1169/2011) asigurăm:",
+    //     "• controlul medical la angajarea in munca;",
+    //     "• controlul medical de adaptare;",
+    //     "• controlul medical periodic;",
+    //     "• controlul medical la reluarea muncii.",
+    //     "• Întocmire dosare gravide",
+    //     "La cerere:",
+    //     "Aviz medical  Siguranta Circulatiei",
+    //     "Fisa port arma",
+    //     "Fisa medicala pentru obtinerea/preschimbarea permisului auto"
+    //   ]
+    // },
     {
       id: 10,
       spec: "Ortopedie si Traumatologie",

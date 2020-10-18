@@ -52,7 +52,7 @@
 
 .wrapper {
   padding: 8rem 0 6rem 0;
-  position: relative;
+  /* position: relative; */
   z-index: 1;
   margin-right: 0;
   margin-left: 0;

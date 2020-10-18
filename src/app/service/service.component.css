@@ -45,7 +45,7 @@ header.special p {
   margin-right: auto;
 }
 .wrapper {
-    position: relative;
+    /* position: relative; */
     z-index: 1;
     padding-bottom: 3rem;
     padding-top: 1.5rem;
@@ -73,7 +73,7 @@ header.special p {
     -ms-transition: opacity 1s ease, -ms-transform 1s ease;
     transition: opacity 1s ease, transform 1s ease;
     opacity: 1;
-    position: relative;
+    /* position: relative; */
     z-index: 3;
     color: #444444;
 }
