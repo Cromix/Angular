@@ -59,7 +59,7 @@ export class ServiciService {
     {
       id: 16,
       spec: "Implantologie",
-      des: [{ name: "Dr. Simona Beatrice Doandes", Tel: "0728386786" }],
+      des: [{ name: "Dr. Beatrice Doandes", Tel: "0728386786" }],
       img: "/assets/icons/implant.png",
       imgPrev: "assets/imgs/dent-implant.jpg",
       text: [

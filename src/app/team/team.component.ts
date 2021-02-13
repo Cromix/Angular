@@ -36,9 +36,9 @@ export class TeamComponent implements OnInit {
     // {
     //   id: 7, name: "Dr. Ioana Marin", des: "Medic specialist medicina muncii", img: "/assets/team/ioana_marin.jpg"
     // },
-    {
-      id: 8, name: "Dr. Valentin Duda", des: "Medic medicina muncii", img: "/assets/team/valentin_dura.jpg"
-    },
+    // {
+    //   id: 8, name: "Dr. Valentin Duda", des: "Medic medicina muncii", img: "/assets/team/valentin_dura.jpg"
+    // },
     {
       id: 9, name: "Dr. Darius Mihart", des: "Medic specialist ortopedie-traumatologie", img: "/assets/team/darius_mihart.jpg"
     },
@@ -55,8 +55,14 @@ export class TeamComponent implements OnInit {
     {
       id: 14, name: "Loredana Danko", des: "Asistent Medical", img: "/assets/team/loredana_donko.jpg"
     },
+    // {
+    //   id: 15, name: "Ramona Circota", des: "Registrator Medical", img: "/assets/team/ramona_circota.jpeg"
+    // },
     {
-      id: 15, name: "Ramona Circota", des: "Registrator Medical", img: "/assets/team/ramona_circota.jpeg"
+      id: 18, name: "Marinela Şipeţan", des: "Registrator Medical", img: "/assets/team/marinela_sipetan.jpg"
+    },
+    {
+      id: 19, name: "Irina Amurăriţi", des: "Registrator Medical", img: "/assets/team/IRINA_AMURARITI.jpg"
     },
     {
       id: 16, name: "AMS LABORATOR GENETIC", des: "Analize Genetice", img: "/assets/team/logo-ams.png"
