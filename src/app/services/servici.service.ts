@@ -171,6 +171,31 @@ export class ServiciService {
       { name: "Dr. Alexandra Tiron", Tel: "0256220614" }
       ],
       img: "/assets/icons/kineto.jpg",
+    },
+    {
+      id: 18,
+      spec: "Tratamente estetice faciale si corporale",
+      des: [{ name: "Cosmetico-Terapeut Natalia Crisan", Tel: "0724416302" }],
+      img: "/assets/icons/body.png",
+      text: [
+        "Pentru a putea atinge un echilibru fizic, chimic și emoțional este nevoie de multa grijă și respect față de corpul nostru.",
+        "Cu ajutorul aparatelor medicale din noua tehnologie reusim sa oferim tratamente profesionale cu rezultate vizibile de la prima sedinta.",
+        "Va punem la dispozitie tratamente si proceduri care ajuta corpul la refacere, reintinerire naturala si relaxare.        ",
+        "• Exfolierea si curatarea tenului in profunzime (microdermabraziune)",
+        "• Tratament de vitaminizare a tenului cu oxigen hiperbaric",
+        "• Indepartarea petelor de pigment cu ajutorul oxigenului",
+        "• Reducerea cuperozei cu oxigen",
+        "• Hidratarea tenului cu oxigen",
+        "• Diminuarea ridurilor cu oxigen",
+        "• Indepartarea cearcanelor cu oxigen",
+        "• Reglarea excesului de sebum cu oxigen",
+        "• Drenaj limfatic manual",
+        "• Masaj vibrational profesional pentru celulita",
+        "• Masaj de relaxare", 
+        "• Masaj reflexogen",
+        "Sanatatea este in mainile tale.",
+        "Nu uita de tine, nu uita de corpul tau."
+      ]
     }
   ];
   constructor() { }

@@ -53,11 +53,11 @@ export class TeamComponent implements OnInit {
       id: 13, name: "Ramona Cojocaru", des: "Kinetoterapeut", img: "/assets/team/ramona_cojocaru.jpg"
     },
     {
+      id: 20, name: " Natalia Crisan", des: "Cosmetico-Terapeut", img: "/assets/team/natalia_crisan.png"
+    },
+    {
       id: 14, name: "Loredana Danko", des: "Asistent Medical", img: "/assets/team/loredana_donko.jpg"
     },
-    // {
-    //   id: 15, name: "Ramona Circota", des: "Registrator Medical", img: "/assets/team/ramona_circota.jpeg"
-    // },
     {
       id: 18, name: "Marinela Şipeţan", des: "Registrator Medical", img: "/assets/team/marinela_sipetan.jpg"
     },
