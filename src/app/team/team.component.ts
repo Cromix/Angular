@@ -18,6 +18,12 @@ export class TeamComponent implements OnInit {
     {
       id: 16, name: "Dr. Ecaterina Comarenco", des: "Medic specialist dentist", img: "/assets/team/Ecaterina_comarenco.jpeg"
     },
+    {
+      id: 21, name: "Dr. Iana Sorana", des: "Medic Stomatolog Rezident, Stomatologie Generala", img: "/assets/team/sorana_iana.jpg"
+    },
+    {
+      id: 22, name: "Dr. Anusca Diana", des: "Medic Dentist Rezident, Parodontolog", img: "/assets/team/diana_anusca.jpg"
+    },
     // {
     //   id: 2, name: "Dr. Marcel Mojse", des: "Medic primar  ortodontie si ortopedie dento-faciala", img: "/assets/team/Moise-Marcel.jpg"
     // },
