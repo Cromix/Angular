@@ -8,7 +8,7 @@ export class ServiciService {
     {
       id: 1,
       spec: "Stomatologie preventivă",
-      des: [{ name: "Dr. Simona Bran-Walter", Tel: "0728386786" }],
+      des: [{ name: "Dr. Simona Bran-Walter", Tel: "0728386786" },{ name: "Dr. Anusca Diana", Tel: "0728386786" }],
       img: "/assets/icons/stoma-prevent.png",
       imgPrev: "assets/imgs/sina-protruzie.jpg",
       text: [
@@ -26,7 +26,8 @@ export class ServiciService {
       spec: "Medicină dentară adulți",
       des: [
         { name: "Dr. Simona Bran-Walter", Tel: "0728386786" },
-        { name: "Dr. Ecaterina Comarenco", Tel: "0256220614" },
+        { name: "Dr. Ecaterina Comarenco", Tel: "0728386786" },
+        { name: "Dr. Iana Sorana", Tel: "0728386786" },
       ],
       img: "/assets/icons/dental-adulti.png",
       text: [
@@ -42,13 +43,19 @@ export class ServiciService {
       spec: "Medicină dentară copii",
       des: [
         { name: "Dr. Simona Bran-Walter", Tel: "0728386786" },
-        // { name: "Dr. Anghel-Lorinti", Tel: "0728386786" }
+        { name: "Dr. Iana Sorana", Tel: "0728386786" },
       ],
       img: "/assets/icons/dental-copii.png",
       text: [
         "Pentru ca atunci cand copii nostrii sunt fericiti, ne transporta si pe noi in starea lor de spirit, ne-am gandit sa inlocuim  banalele plombe triste albe sau de multe ori inca gri, cu culori vesele.",
         "Asocierea cu pietre pretioase, mai ales de catre fetite, este datorata sclipiciului inglobat in obturatii."
       ]
+    },
+    {
+      id: 19,
+      spec: "Parodontologie",
+      des: [{ name: "Dr. Anusca Diana", Tel: "0728386786" }],
+      img: "/assets/icons/periodontics.png"
     },
     {
       id: 4,
