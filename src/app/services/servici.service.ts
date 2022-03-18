@@ -59,9 +59,14 @@ export class ServiciService {
     },
     {
       id: 4,
-      spec: "Ortodontie si ortopedie dento-faciala",
-      des: [{ name: "Dr. Simona Bran-Walter", Tel: "0728386786" }],
-      img: "/assets/icons/stoma.png"
+      spec: "Ortodontie si Ortopedie Dento-Faciala",
+      des: [
+        { name: "Dr. Simona Bran-Walter", Tel: "0728386786" },
+        { name: "Dr. Oana Zirbo ", Tel: "0728386786" }],
+      img: "/assets/icons/stoma.png",
+      text: [
+        "Din practica ei zilnica fac parte tratamentul ortodontic al adultului prin abordarea interdisciplinara a cazurilor, tratamentul ortodontic al adolescentilor si interceptia (aparate mobilizabile si miofunctionale) care vizeaza cresterea si dezvoltarea armonioasa a copilului."
+      ]
     },
     {
       id: 16,
