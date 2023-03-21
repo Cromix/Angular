@@ -21,12 +21,12 @@ export class TeamComponent implements OnInit {
     {
       id: 23, name: "Dr. Oana Zirbo", des: "Medic Specialist Ortodontie si Ortopedie Dento-Faciala", img: "/assets/team/oana_zirbo.jpg"
     },
-    {
-      id: 21, name: "Dr. Iana Sorana", des: "Medic Stomatolog, <br>Rezident Stomatologie Generala", img: "/assets/team/sorana_iana.jpg"
-    },
-    {
-      id: 22, name: "Dr. Anusca Diana", des: "Medic Dentist, <br>Rezident Parodontolog", img: "/assets/team/diana_anusca.jpg"
-    },
+    // {
+    //   id: 21, name: "Dr. Iana Sorana", des: "Medic Stomatolog, <br>Rezident Stomatologie Generala", img: "/assets/team/sorana_iana.jpg"
+    // },
+    // {
+    //   id: 22, name: "Dr. Anusca Diana", des: "Medic Dentist, <br>Rezident Parodontolog", img: "/assets/team/diana_anusca.jpg"
+    // },
     // {
     //   id: 2, name: "Dr. Marcel Mojse", des: "Medic primar  ortodontie si ortopedie dento-faciala", img: "/assets/team/Moise-Marcel.jpg"
     // },
@@ -48,9 +48,9 @@ export class TeamComponent implements OnInit {
     // {
     //   id: 8, name: "Dr. Valentin Duda", des: "Medic medicina muncii", img: "/assets/team/valentin_dura.jpg"
     // },
-    {
-      id: 9, name: "Dr. Darius Mihart", des: "Medic specialist ortopedie-traumatologie", img: "/assets/team/darius_mihart.jpg"
-    },
+    // {
+    //   id: 9, name: "Dr. Darius Mihart", des: "Medic specialist ortopedie-traumatologie", img: "/assets/team/darius_mihart.jpg"
+    // },
     {
       id: 10, name: "Dr. Ramona Mureșan", des: "Medic specialist alergolog", img: "/assets/team/ramona_muresan.jpg"
     },
@@ -59,7 +59,7 @@ export class TeamComponent implements OnInit {
       id: 12, name: "Psih. Flavia Daiana Grek", des: "Psiholog", img: "/assets/team/flavia_grek.jpeg"
     },
     {
-      id: 24, name: "Psih. Andrea Iştoc", des: "Psiholog", img: "/assets/team/no_image.JPG"
+      id: 24, name: "Psih. Andrea Iştoc", des: "Psiholog", img: "/assets/team/andrea_istoc.jpeg"
     },
     {
       id: 13, name: "Ramona Cojocaru", des: "Kinetoterapeut", img: "/assets/team/ramona_cojocaru.jpg"

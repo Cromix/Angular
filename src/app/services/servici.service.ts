@@ -27,7 +27,7 @@ export class ServiciService {
       des: [
         { name: "Dr. Simona Bran-Walter", Tel: "0728386786" },
         { name: "Dr. Ecaterina Comarenco", Tel: "0728386786" },
-        { name: "Dr. Iana Sorana", Tel: "0728386786" },
+
       ],
       img: "/assets/icons/dental-adulti.png",
       text: [
@@ -43,7 +43,6 @@ export class ServiciService {
       spec: "Medicină dentară copii",
       des: [
         { name: "Dr. Simona Bran-Walter", Tel: "0728386786" },
-        { name: "Dr. Iana Sorana", Tel: "0728386786" },
       ],
       img: "/assets/icons/dental-copii.png",
       text: [
@@ -54,7 +53,7 @@ export class ServiciService {
     {
       id: 19,
       spec: "Parodontologie",
-      des: [{ name: "Dr. Anusca Diana", Tel: "0728386786" }],
+      des: [],
       img: "/assets/icons/periodontics.png"
     },
     {
@@ -102,6 +101,24 @@ export class ServiciService {
         "Scopul medicului de familie este acela de a preveni, vindeca sau ameliora suferinta pacientului."
       ]
     },
+    {
+      id: 21,
+      spec: "Cardiologie",
+      des: [
+        { name: "Dr. Zus Sebastian", Tel: "0770396146" },
+      ],
+      img: "/assets/icons/cardio.png",
+      text: [
+        "Dr. Zus Adrian-Sebastian, medic specialist cardiologie cu competenţă în ecografie cardiacă şi cardiologie intervenţională, cu activitate în cadrul Institutului de Boli Cardiovasculare Timişoara şi Universităţii de Medicină şi Farmacie “Victor Babeş” Timişoara, oferă servicii cardiologie complete:",
+        "• consultaţie",
+        "• EKG",
+        "• ecografie cardiacă",
+        "• Holtere",
+        "• test de efort",
+        "• consultaţii on-line",
+        "• precum şi sfaturi pentru prevenţia bolilor cardiovasculare. "
+      ]
+    },
 
     // {
     //   id: 8,
@@ -125,7 +142,7 @@ export class ServiciService {
     {
       id: 10,
       spec: "Ortopedie si Traumatologie",
-      des: [{ name: "Dr. Darius Mihart", Tel: "0256220614" }],
+      des: [],
       img: "/assets/icons/traumo.png",
       text: [
         "Ortopedia și traumatologia este specialitatea chirurgicală care se ocupă cu depistarea, diagnosticarea, tratarea și recuperarea afecțiunilor congenitale și dobândite, traumatice și netraumatice, ale aparatului locomotor."
@@ -168,6 +185,23 @@ export class ServiciService {
         "• consiliere psihologică pentru copii, adoleșcenți, adulți, vârstnici (administrat grup/familie/cuplu sau individual) în scopul optimizării, autocunoașterii și dezvoltării personale, dar și în scopul prevenției și remiterii problemelor emoționale, cognitive și de comportament",
         "• intervenții paliative (ex. consiliere suportivă)",
         "• asistență psihologică clinică a copiilor cu CES"
+      ]
+    },
+    {
+      id: 15,
+      spec: "Psihoterapie Familială și Consiliere Parentală",
+      des: [{ name: "Psih. Andrea Iştoc", Tel: "0748330089" }],
+      img: "/assets/icons/fam.png",
+      text: [
+        "Psihoterapia este o modalitate de tratament cuprinzător, deliberat și planificat, centrată pe reducerea sau eliminarea unor simptome, tulburări mintale sau stări de suferință și/sau psihosomatice și comportamente disfuncționale, cu scopul de a ajuta persoanele privitor la problemele sale de viață.",
+        "Psihoterapia este un domeniu aflat la granița dintre medicină și psihologie, în care se utilizează o gamă largă de tehnici cu un cadru clinic și teoretic.",
+        "Psihoterapia se adresează adulților, copiilor, adolescenților și de asemenea vârstnicilor.",
+        "Consilierea parentală este un serviciu adresat părinților sau adulților care au în grija lor copii și care doresc să depășească diverse stări sau situații cu care se confruntă în relația copilul. Intervenția se referă la orice aspect legat de educația copiilor și de dinamica părinte - copil: schimbări apărute în comportamentul copilului (tantrumuri, violență, regresii, anxietate), adaptarea la un nou mediu sau o nouă situație (grădiniță, școală, casă nouă, divorț, apariția unui frate, doliu etc), gestionarea emoțiilor, gestionare fricilor, bullyng etc.",
+        "Servicii oferite:",
+        "• Psihoterapie Familială (sau Sistemică) - se adresează oamenilor în relație, include terapia Familială și consiliera maritală, respectiv intervenții de grup.",
+        "• Psihoterapie de cuplu - se adresează cuplurilor aflate în impas.",
+        "• Psihoterapie individuală - obiectivul intervenției este persoana care se află în impas sau într-o situație de criză.",
+        "• Consiliere parentală pentru părinți și adulți cu scopul de a-i ghida să gestioneze situație dificile din relația părinte - copil, dinamica dintre ei sau orice dificultate legată de etapa de dezvoltare a copilului.",
       ]
     },
     {
