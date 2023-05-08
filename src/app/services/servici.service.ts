@@ -190,7 +190,7 @@ export class ServiciService {
     {
       id: 15,
       spec: "Psihoterapie Familială și Consiliere Parentală",
-      des: [{ name: "Psih. Andrea Iştoc", Tel: "0748330089" }],
+      des: [{ name: "Psih. Andrea Iştoc", Tel: "0737131210" }],
       img: "/assets/icons/fam.png",
       text: [
         "Psihoterapia este o modalitate de tratament cuprinzător, deliberat și planificat, centrată pe reducerea sau eliminarea unor simptome, tulburări mintale sau stări de suferință și/sau psihosomatice și comportamente disfuncționale, cu scopul de a ajuta persoanele privitor la problemele sale de viață.",
