@@ -8,7 +8,7 @@ export class ServiciService {
     {
       id: 1,
       spec: "Stomatologie preventivă",
-      des: [{ name: "Dr. Simona Bran-Walter", Tel: "0728386786" },{ name: "Dr. Anusca Diana", Tel: "0728386786" }],
+      des: [{ name: "Dr. Simona Bran-Walter", Tel: "0728386786" }],
       img: "/assets/icons/stoma-prevent.png",
       imgPrev: "assets/imgs/sina-protruzie.jpg",
       text: [
@@ -213,36 +213,36 @@ export class ServiciService {
     {
       id: 17,
       spec: "Kinetotetrapie si Recuperare Medicala",
-      des: [{ name: "Dr. Ramona Cojocaru", Tel: "0729455083" },
+      des: [
       { name: "Dr. Alexandra Tiron", Tel: "0256220614" }
       ],
       img: "/assets/icons/kineto.jpg",
     },
-    {
-      id: 18,
-      spec: "Tratamente estetice faciale si corporale",
-      des: [{ name: "Cosmetico-Terapeut Natalia Crisan", Tel: "0724416302" }],
-      img: "/assets/icons/body.png",
-      text: [
-        "Pentru a putea atinge un echilibru fizic, chimic și emoțional este nevoie de multa grijă și respect față de corpul nostru.",
-        "Cu ajutorul aparatelor medicale din noua tehnologie reusim sa oferim tratamente profesionale cu rezultate vizibile de la prima sedinta.",
-        "Va punem la dispozitie tratamente si proceduri care ajuta corpul la refacere, reintinerire naturala si relaxare.        ",
-        "• Exfolierea si curatarea tenului in profunzime (microdermabraziune)",
-        "• Tratament de vitaminizare a tenului cu oxigen hiperbaric",
-        "• Indepartarea petelor de pigment cu ajutorul oxigenului",
-        "• Reducerea cuperozei cu oxigen",
-        "• Hidratarea tenului cu oxigen",
-        "• Diminuarea ridurilor cu oxigen",
-        "• Indepartarea cearcanelor cu oxigen",
-        "• Reglarea excesului de sebum cu oxigen",
-        "• Drenaj limfatic manual",
-        "• Masaj vibrational profesional pentru celulita",
-        "• Masaj de relaxare", 
-        "• Masaj reflexogen",
-        "Sanatatea este in mainile tale.",
-        "Nu uita de tine, nu uita de corpul tau."
-      ]
-    }
+    // {
+    //   id: 18,
+    //   spec: "Tratamente estetice faciale si corporale",
+    //   des: [{ name: "Cosmetico-Terapeut Natalia Crisan", Tel: "0724416302" }],
+    //   img: "/assets/icons/body.png",
+    //   text: [
+    //     "Pentru a putea atinge un echilibru fizic, chimic și emoțional este nevoie de multa grijă și respect față de corpul nostru.",
+    //     "Cu ajutorul aparatelor medicale din noua tehnologie reusim sa oferim tratamente profesionale cu rezultate vizibile de la prima sedinta.",
+    //     "Va punem la dispozitie tratamente si proceduri care ajuta corpul la refacere, reintinerire naturala si relaxare.        ",
+    //     "• Exfolierea si curatarea tenului in profunzime (microdermabraziune)",
+    //     "• Tratament de vitaminizare a tenului cu oxigen hiperbaric",
+    //     "• Indepartarea petelor de pigment cu ajutorul oxigenului",
+    //     "• Reducerea cuperozei cu oxigen",
+    //     "• Hidratarea tenului cu oxigen",
+    //     "• Diminuarea ridurilor cu oxigen",
+    //     "• Indepartarea cearcanelor cu oxigen",
+    //     "• Reglarea excesului de sebum cu oxigen",
+    //     "• Drenaj limfatic manual",
+    //     "• Masaj vibrational profesional pentru celulita",
+    //     "• Masaj de relaxare", 
+    //     "• Masaj reflexogen",
+    //     "Sanatatea este in mainile tale.",
+    //     "Nu uita de tine, nu uita de corpul tau."
+    //   ]
+    // }
   ];
   constructor() { }
   getAllServices() {
