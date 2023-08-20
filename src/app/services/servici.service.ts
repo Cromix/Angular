@@ -26,8 +26,6 @@ export class ServiciService {
       spec: "Medicină dentară adulți",
       des: [
         { name: "Dr. Simona Bran-Walter", Tel: "0728386786" },
-        { name: "Dr. Ecaterina Comarenco", Tel: "0728386786" },
-
       ],
       img: "/assets/icons/dental-adulti.png",
       text: [
@@ -53,8 +51,16 @@ export class ServiciService {
     {
       id: 19,
       spec: "Parodontologie",
-      des: [],
-      img: "/assets/icons/periodontics.png"
+      des: [
+        { name: "Dr. Andreea Hanghicel", Tel: "0728386786" }
+      ],
+      img: "/assets/icons/periodontics.png",
+      text: [
+        "Boala parodontală sau parodontoza, așa cum e cunoscută în viața de zi cu zi, reprezintă inflamația și pierderea progresivă a suportului dentar. Din ce în ce mai întâlnită în rândul populației, boala parodontală nu se face resimțită prin apariția durerii, ci prin gingii sângeroase și în cele din urmă prin mobilitate dentară, ducând în final la pierderea dinților de pe arcadă.",
+        "Cea mai importantă metodă de combatere a bolii parodontale este prevenția. Ceea ce înseamnă o atenție crescută asupra igienei orale din partea pacientului dar și prezentarea acestuia în cabinetul de medicină dentară în vederea realizării unei igienizări profesionale o dată pe an, în unele cazuri și mai frecvent.",
+        "Parodontologia este ramura stomatologiei care se ocupă de bunăstarea osului, ligamentelor parodontale și ale gingiei. Astfel, daca prezentați o gingie roșie-violacee, moale și crescută în volum sau o gingie subțire, retrasă de pe dinte, care duce la expunerea rădăcinii dentare și totodată la apariția sensibilității dentare, vă așteptăm la un consult de specialitate.",
+        "Asocierea cu pietre pretioase, mai ales de catre fetite, este datorata sclipiciului inglobat in obturatii."
+      ]
     },
     {
       id: 4,
@@ -83,8 +89,7 @@ export class ServiciService {
     {
       id: 5,
       spec: "Chirurgie maxilo-faciala",
-      des: [{ name: "Dr. Beatrice Doandes", Tel: "0728386786" },
-      { name: "Dr. Ecaterina Comarenco", Tel: "0256220614" },],
+      des: [{ name: "Dr. Beatrice Doandes", Tel: "0728386786" },],
       img: "/assets/icons/stoma-chirurgie.png"
     },
     {

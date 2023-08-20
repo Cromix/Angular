@@ -13,19 +13,22 @@ export class TeamComponent implements OnInit {
       id: 1, name: "Dr. Simona Bran-Walter", des: "Medic specialist stomatologie generala, competenta in stomatologie preventiva", img: "/assets/team/simona_walter.jpg"
     },
     {
-      id: 11, name: "Dr. Beatrice Doandes", des: "Medic specialist implantologie si chirurgie maxilo-faciala", img: "/assets/team/beatrice_doandes.jpeg"
+      id: 11, name: "Dr. Beatrice Dandes", des: "Medic specialist implantologie si chirurgie maxilo-faciala", img: "/assets/team/beatrice_doandes.jpeg"
+    },   
+     {
+      id: 26, name: "Dr. Andreea Hanghicel", des: "Medic specialist parodontologie", img: "/assets/team/andreea_hanghicel.png"
     },
-    {
-      id: 16, name: "Dr. Ecaterina Comarenco", des: "Medic dentist, <br>Specialist Stomatologie Generala", img: "/assets/team/Ecaterina_comarenco.jpeg"
-    },
+    // {
+    //   id: 16, name: "Dr. Ecaterina Comarenco", des: "Medic dentist, <br>Specialist Stomatologie Generala", img: "/assets/team/Ecaterina_comarenco.jpeg"
+    // },
     {
       id: 23, name: "Dr. Oana Zirbo", des: "Medic Specialist Ortodontie si Ortopedie Dento-Faciala", img: "/assets/team/oana_zirbo.jpg"
     },
     {
-      id: 25, name: "Dr. Zus Sebastian", des: "Medic Specialist Cardiologie", img: "/assets/team/ZusSebastian.png"
+      id: 25, name: "Dr. Sebastian Zus", des: "Medic Specialist Cardiologie", img: "/assets/team/ZusSebastian.png"
     },
     // {
-    //   id: 21, name: "Dr. Iana Sorana", des: "Medic Stomatolog, <br>Rezident Stomatologie Generala", img: "/assets/team/sorana_iana.jpg"
+    //   id: 21, name: "Dr. Iana Sorana", des: "Medic Stomatolog, <br>Rezident Stomatologie Generala", img: "/assets/team/sorana_iana.jpg" 
     // },
     // {
     //   id: 22, name: "Dr. Anusca Diana", des: "Medic Dentist, <br>Rezident Parodontolog", img: "/assets/team/diana_anusca.jpg"
