@@ -64,12 +64,12 @@ export class TeamComponent implements OnInit {
     {
       id: 12, name: "Psih. Flavia Daiana Grek", des: "Psiholog", img: "/assets/team/flavia_grek.jpeg"
     },
-    {
-      id: 24, name: "Psih. Andrea Iştoc", des: "Psiholog", img: "/assets/team/andrea_istoc.jpeg"
-    },
-    {
-      id: 13, name: "Ramona Cojocaru", des: "Kinetoterapeut", img: "/assets/team/ramona_cojocaru.jpg"
-    },
+    // {
+    //   id: 24, name: "Psih. Andrea Iştoc", des: "Psiholog", img: "/assets/team/andrea_istoc.jpeg"
+    // },
+    // {
+    //   id: 13, name: "Ramona Cojocaru", des: "Kinetoterapeut", img: "/assets/team/ramona_cojocaru.jpg"
+    // },
     // {
     //   id: 20, name: " Natalia Crisan", des: "Cosmetico-Terapeut", img: "/assets/team/natalia_crisan.png"
     // },
@@ -79,9 +79,9 @@ export class TeamComponent implements OnInit {
     // {
     //   id: 18, name: "Marinela Şipeţan", des: "Registrator Medical", img: "/assets/team/marinela_sipetan.jpg"
     // },
-    // {
-    //   id: 19, name: "Irina Amurăriţi", des: "Registrator Medical", img: "/assets/team/IRINA_AMURARITI.jpg"
-    // },
+    {
+      id: 19, name: "Irina Paltinean", des: "Asistenta medicala", img: "/assets/team/irina_paltineam.png"
+    },
     {
       id: 16, name: "AMS LABORATOR GENETIC", des: "Analize Genetice", img: "/assets/team/logo-ams.png"
     },

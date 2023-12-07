@@ -76,7 +76,7 @@ export class ServiciService {
     {
       id: 16,
       spec: "Implantologie",
-      des: [{ name: "Dr. Beatrice Doandes", Tel: "0728386786" }],
+      des: [{ name: "Dr. Beatrice Dandes", Tel: "0728386786" }],
       img: "/assets/icons/implant.png",
       imgPrev: "assets/imgs/dent-implant.jpg",
       text: [
@@ -89,7 +89,7 @@ export class ServiciService {
     {
       id: 5,
       spec: "Chirurgie maxilo-faciala",
-      des: [{ name: "Dr. Beatrice Doandes", Tel: "0728386786" },],
+      des: [{ name: "Dr. Beatrice Dandes", Tel: "0728386786" },],
       img: "/assets/icons/stoma-chirurgie.png"
     },
     {
@@ -192,23 +192,23 @@ export class ServiciService {
         "• asistență psihologică clinică a copiilor cu CES"
       ]
     },
-    {
-      id: 15,
-      spec: "Psihoterapie Familială și Consiliere Parentală",
-      des: [{ name: "Psih. Andrea Iştoc", Tel: "0737131210" }],
-      img: "/assets/icons/fam.png",
-      text: [
-        "Psihoterapia este o modalitate de tratament cuprinzător, deliberat și planificat, centrată pe reducerea sau eliminarea unor simptome, tulburări mintale sau stări de suferință și/sau psihosomatice și comportamente disfuncționale, cu scopul de a ajuta persoanele privitor la problemele sale de viață.",
-        "Psihoterapia este un domeniu aflat la granița dintre medicină și psihologie, în care se utilizează o gamă largă de tehnici cu un cadru clinic și teoretic.",
-        "Psihoterapia se adresează adulților, copiilor, adolescenților și de asemenea vârstnicilor.",
-        "Consilierea parentală este un serviciu adresat părinților sau adulților care au în grija lor copii și care doresc să depășească diverse stări sau situații cu care se confruntă în relația copilul. Intervenția se referă la orice aspect legat de educația copiilor și de dinamica părinte - copil: schimbări apărute în comportamentul copilului (tantrumuri, violență, regresii, anxietate), adaptarea la un nou mediu sau o nouă situație (grădiniță, școală, casă nouă, divorț, apariția unui frate, doliu etc), gestionarea emoțiilor, gestionare fricilor, bullyng etc.",
-        "Servicii oferite:",
-        "• Psihoterapie Familială (sau Sistemică) - se adresează oamenilor în relație, include terapia Familială și consiliera maritală, respectiv intervenții de grup.",
-        "• Psihoterapie de cuplu - se adresează cuplurilor aflate în impas.",
-        "• Psihoterapie individuală - obiectivul intervenției este persoana care se află în impas sau într-o situație de criză.",
-        "• Consiliere parentală pentru părinți și adulți cu scopul de a-i ghida să gestioneze situație dificile din relația părinte - copil, dinamica dintre ei sau orice dificultate legată de etapa de dezvoltare a copilului.",
-      ]
-    },
+    // {
+    //   id: 15,
+    //   spec: "Psihoterapie Familială și Consiliere Parentală",
+    //   des: [{ name: "Psih. Andrea Iştoc", Tel: "0737131210" }],
+    //   img: "/assets/icons/fam.png",
+    //   text: [
+    //     "Psihoterapia este o modalitate de tratament cuprinzător, deliberat și planificat, centrată pe reducerea sau eliminarea unor simptome, tulburări mintale sau stări de suferință și/sau psihosomatice și comportamente disfuncționale, cu scopul de a ajuta persoanele privitor la problemele sale de viață.",
+    //     "Psihoterapia este un domeniu aflat la granița dintre medicină și psihologie, în care se utilizează o gamă largă de tehnici cu un cadru clinic și teoretic.",
+    //     "Psihoterapia se adresează adulților, copiilor, adolescenților și de asemenea vârstnicilor.",
+    //     "Consilierea parentală este un serviciu adresat părinților sau adulților care au în grija lor copii și care doresc să depășească diverse stări sau situații cu care se confruntă în relația copilul. Intervenția se referă la orice aspect legat de educația copiilor și de dinamica părinte - copil: schimbări apărute în comportamentul copilului (tantrumuri, violență, regresii, anxietate), adaptarea la un nou mediu sau o nouă situație (grădiniță, școală, casă nouă, divorț, apariția unui frate, doliu etc), gestionarea emoțiilor, gestionare fricilor, bullyng etc.",
+    //     "Servicii oferite:",
+    //     "• Psihoterapie Familială (sau Sistemică) - se adresează oamenilor în relație, include terapia Familială și consiliera maritală, respectiv intervenții de grup.",
+    //     "• Psihoterapie de cuplu - se adresează cuplurilor aflate în impas.",
+    //     "• Psihoterapie individuală - obiectivul intervenției este persoana care se află în impas sau într-o situație de criză.",
+    //     "• Consiliere parentală pentru părinți și adulți cu scopul de a-i ghida să gestioneze situație dificile din relația părinte - copil, dinamica dintre ei sau orice dificultate legată de etapa de dezvoltare a copilului.",
+    //   ]
+    // },
     {
       id: 16,
       spec: "Logopedie",
@@ -219,7 +219,8 @@ export class ServiciService {
       id: 17,
       spec: "Kinetotetrapie si Recuperare Medicala",
       des: [
-      { name: "Dr. Alexandra Tiron", Tel: "0256220614" }
+      { name: "Alexandra Tiron", Tel: "0744362655" },
+      { name: "", Tel: "0740653306" }
       ],
       img: "/assets/icons/kineto.jpg",
     },
